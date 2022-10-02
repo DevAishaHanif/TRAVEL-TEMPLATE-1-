@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  font-family: Verdana, sans-serif;
+}
+.wrapper {
+  padding: 10px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 80px;
+  font-size: 25px;
+  width: 900px;
+  height: 80px;
+  line-height: 1.5;
+  font-weight: 400;
+  opacity: 0.9;
+  padding: 15px;
+  cursor: pointer;
+  background-color: orange;
+  border: 2px solid orange;
+}
+.bottom:hover {
+  background-color: yellow;
+}
+.photo,
+.beach,
+.sealions,
+.cellphone,
+.truck,
+.nowornever {
+  width: 100%;
+}
+.photo {
+  align: left;
+}
+.phone,
+.picture,
+.car,
+.never {
+  width: 49%;
+  border-top: 7px solid orange;
+  margin-bottom:20px;
+}
+.phone,
+.car {
+  float: left;
+}
+.picture,
+.never {
+  float: right;
+}
+.header,
+.start {
+  font-size: 15px;
+}
+Footer
+© 2022 GitHub, Inc.
